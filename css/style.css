@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+}
+
+.announce {
+    background-color: #f4c2c2;
+    display: flex;
+    flex-direction: column;
+}
+
+.shipping {
+    font-size: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .2em;
+    margin-top: 1.5em;
+}
+
+.euro {
+    font-size: 8px;
+    text-align: center;
+    letter-spacing: .15em;
+    margin-top: -.5em;
+    margin-bottom: 1.2em;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    max-width: 110px;
+    position: absolute;
+    left: 1em;
+    top: 4em;
+}
+
+.zoek {
+    max-width: 1.5em;
+    position: absolute;
+    right: 6em;
+    top: 5em;
+}
+
+.menu {
+    max-width: 2em;
+    position: absolute;
+    right: 3.5em;
+    top: 4.75em;
+}
+
+.cart {
+    max-width: 1.5em;
+    position: absolute;
+    right: 1.5em;
+    top: 4.9em;
+}
+
+.banner {
+    max-width: 100%;
+    margin-top: 5em;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    top: 4em;
+    left: 1em;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.button {
+    position: relative;
+    background-color: black;
+    text-transform: uppercase;
+    padding: .5em 1em;
+    color: white;
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: bold;
+    letter-spacing: .2em;
+    top: -5em;
+    left: 2.5em;
+}
+
+.photo {
+    max-width: 100%;
+}
+
+.photos {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: .75em;
+    text-align: center;
+    position: relative;
+    top: -17em;
+    color: white;
+}
+
+.value {
+    max-width: 100%;
+}
+
+.products {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.view {
+    text-transform: uppercase;
+    background-color: white;
+    padding: .5em 1em;
+    font-family: 'Poppins',
+        sans-serif;
+    letter-spacing: .2em;
+    font-size: .75em;
+    position: relative;
+    left: auto;
+}
