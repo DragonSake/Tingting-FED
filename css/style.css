@@ -81,11 +81,15 @@ header a:first-of-type {
     width: 1.75em;
 }
 
-/* Om de tekst van de label een lettertype te geven en ruimte links */
+/* Om ruimte links te geven aan de checkbox */
+input[type=checkbox] {
+    margin-left: 1em;
+}
+
+/* Om de tekst van de label een lettertype te geven */
 label {
     font-family: 'Poppins',
         sans-serif;
-    margin-left: 1em;
 }
 
 /* Om de h1 een kleur te geven, de positie te meegeven, de grootte van de tekst en allemaal kapitalen */
@@ -355,23 +359,23 @@ section:nth-of-type(8) p {
 }
 
 /* Positie van het formulier */
-form {
+section:nth-of-type(8) form {
     position: relative;
     top: 3em;
 }
 
 /* Ruimte links */
-form label:first-of-type {
+section:nth-of-type(8) form label:first-of-type {
     margin-left: 2em;
 }
 
 /* Ruimte links */
-form label:nth-of-type(2) {
+section:nth-of-type(8) form label:nth-of-type(2) {
     margin-left: 6em;
 }
 
 /* Stijlen van het tekstvlak */
-form input[type=text] {
+section:nth-of-type(8) form input[type=text] {
     border-radius: 5px;
     padding: 5px;
     border: none;
@@ -382,7 +386,7 @@ form input[type=text] {
 }
 
 /* Positioneren van de checkbox */
-form input[type=checkbox] {
+section:nth-of-type(8) form input[type=checkbox] {
     position: relative;
     left: 5.5em;
     margin-left: auto;
@@ -390,7 +394,7 @@ form input[type=checkbox] {
 }
 
 /* Stijlen van de button */
-form input[type=submit] {
+section:nth-of-type(8) form input[type=submit] {
     background-color: black;
     text-transform: uppercase;
     padding: .5em 1em;
@@ -404,17 +408,17 @@ form input[type=submit] {
     margin-top: 1em;
 }
 
-form input[type=submit]:hover {
+section:nth-of-type(8) form input[type=submit]:hover {
     color: black;
     background-color: white;
 }
 
-form input[type=submit]:active {
+section:nth-of-type(8) form input[type=submit]:active {
     color: black;
     background-color: #f4c2c2;
 }
 
-form input[type=submit]:focus {
+section:nth-of-type(8) form input[type=submit]:focus {
     color: black;
     background-color: #f4c2c2;
 }
