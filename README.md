@@ -152,6 +152,9 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 - Het leest de alt teksten van de images.
 - Toetsenbord combinaties werken anders.
 - Muis werkt niet?
+ 
+ ![Toegankelijktest](https://user-images.githubusercontent.com/40611000/136080958-4bc37154-49c9-4964-9b97-e591b8b225b4.PNG)
+
 
 #### Titel eerste bevinding
 Gekleurde bril
