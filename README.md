@@ -40,15 +40,13 @@ https://www.rosekoreanbeauty.com/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Homepage
- ![screencapture-rosekoreanbeauty-2021-10-05-19_03_44](https://user-images.githubusercontent.com/40611000/136069615-68a5283a-4a58-494d-9597-ce84600370e5.png)
 
-<img src="" width="375px" alt="omschrijving van de pagina">
+<img src="./screenshots/Home.png" width="375px" alt="Screenshot homepage">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Bestsellers
- ![screencapture-rosekoreanbeauty-collections-bestsellers-2021-10-05-19_04_13](https://user-images.githubusercontent.com/40611000/136069635-4f11e5e1-9461-4f22-82ff-54471d4d7593.png)
- 
-<img src="" width="375px" alt="omschrijving van de pagina">
+
+<img src="./screenshots/Bestsellers.png" width="375px" alt="Screenshot pagetwo">
  
 </details>
 
@@ -62,8 +60,8 @@ Bestsellers
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-![Breakdownschets](https://user-images.githubusercontent.com/40611000/136070950-eab90b3b-ad45-4e2f-8a2c-987ed155898d.PNG)
 
+<img src="./screenshots/Breakdownschets.png" width="375px" alt="Breakdownschets">
 
 </details>
 
@@ -77,8 +75,12 @@ Bestsellers
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Wat ging goed
+Ik heb code geschreven en het begon op de orginele website te lijken. 
 
+Wat ging minder goed
+Hier en daar liep ik soms vast met code die niet werkte naar mijn gevoel, maar dan probeerde ik het op een andere manier. 
+Bijvoorbeeld in plaats van justify-content, justify-items te gebruiken. Als ik echt vast liep dan zocht ik hulp op het internet.
 
 ### Agenda voor meeting
 samen met je groepje opstellen
@@ -93,10 +95,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Maak een planning
+- Gebruik minder classes, verander die naar first-of-type en nth-of-type
 
 </details>
 
@@ -110,8 +110,12 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Wat ging goed
+Ik had een planning gemaakt en schreef elke dag wat code.
 
+Wat ging minder goed
+Een andere deadline was op komst, dus had minder tijd om aan dit vak te werken.
+Dit heb ik opgelost door aantal dagen meer code te schrijven dan gepland.
 
 ### Agenda voor meeting
 samen met je groepje opstellen
@@ -126,10 +130,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Meer code schrijven
+- Suggestie: animatie toevoegen
 
 </details>
 
@@ -143,30 +145,25 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
+- Screenreader leest van alles op, je moet goed luisteren om te weten wat die leest.
+- Het leest de alt teksten van de images.
+- Toetsenbord combinaties werken anders.
+- Muis werkt niet?
 
 #### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+Gekleurde bril
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
+Opletten op goed contrast. Donker op licht bijvoorbeeld.
 
 #### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+States
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
+Buttons verschillende states geven, zodat je weet waar je muis is of je tab toets.
 
 #### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+De screenreader praat langzaam
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Je kan verder tabben of de speed van de stem veranderen.
 
 </details>
 
@@ -180,8 +177,13 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Dit ging goed
+De website was bijna helemaal klaar. 
 
+Dit ging minder goed
+Het animeren lukte mij niet en ik heb dat opgegeven.
+De deadline kwam er ook aan dus ik wilde niet te veel tijd daaraan besteden.
+Daardoor ben ik op andere onderwerpen van de surface plane gaan richten.
 
 ### Agenda voor meeting
 samen met je groepje opstellen
@@ -196,10 +198,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Niet vergeten 5 onderwerpen te gebruiken van de surface plane
+- Deadline komt eraan
 
 </details>
 
@@ -213,11 +213,21 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Dit ging goed
+Ik had de 5 onderwerpen in de website verwerkt.
+Ik was bijna klaar, ik moest alleen nog de puntjes op de i zetten.
+
+Dit ging minder goed
+Ik wist niet hoe GitHub werkte, ik heb het aan klasgenoten gevraagd waardoor ik nu iets wijzer ben.
+Ik heb zelf ook een beetje zitten rondneuzen hoe alles werkt.
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+<img src="./screenshots/Bestsellerspage.png" width="375px" alt="Bestsellerspage">
+<img src="./screenshots/Homepage.png" width="375px" alt="Homepage">
+
+<img src="./screenshots/Code1.png" width="375px" alt="HTML">
+<img src="./screenshots/Code2.png" width="375px" alt="Javascript">
 
 </details>
 
@@ -230,10 +240,11 @@ hier screenshot(s) van je eindresultaat
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
-
-1. bron 1
-2. bron 2
-3. ...
+1. Click Button to Change Font-size using Javascript | Increase Decrease Font Size on Website - https://www.youtube.com/watch?v=xOy0kVlbhlc
+2. Formulieren - https://www.w3schools.com/html/html_forms.asp
+3. Horizontale lijn - https://www.w3schools.com/tags/tag_hr.asp
+4. Euro sign - Euro sign https://www.w3schools.com/charsets/ref_utf_currency.asp
+5. States oefening 2 208c van  Sanne - https://codepen.io/shooft/pen/rNworwK
+6. Sound - https://www.w3schools.com/jsref/met_win_settimeout.asp
 
 </details>
