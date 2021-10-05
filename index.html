@@ -14,135 +14,173 @@
 
 <body>
     <div class="announce">
-        <p class="shipping"><strong>Enjoy free shipping</strong></p>
-        <p class="euro">On purchases over &#8364 50 to Belgium & The Netherlands.</p>
+        <p><strong>Enjoy free shipping</strong></p>
+        <p>On purchases over &#8364 50 to Belgium & The Netherlands.</p>
     </div>
 
     <header>
-        <a class="brand-icon" href="index.html"><img class="logo" alt="logo" src="images/logo.png"></a>
-        <a class="navlink">SHOP ALL</a>
-        <a class="navlink">BESTSELLERS</a>
-        <a class="navlink">SHOP BY PRODUCTS</a>
-        <a class="navlink">SHOP BY CONCERN</a>
-        <a class="navlink">MAKE UP</a>
-        <a class="navlink">BRANDS</a>
-        <a class="navlink">SALE</a>
-        <a href="" class="icon"><img alt="search" src="images/search.png"></a>
-        <a href="" class="icon"><img alt="menu" src="images/menu.png"></a>
-        <a href="" class="icon"><img alt="cart" src="images/cart.png"></a>
+        <a href="index.html"><img class="logo" alt="logo" src="images/logo.png"></a>
+        <a href="#" class="icon"><img alt="search" src="images/search.png"></a>
+        <a href="#" class="icon"><img alt="menu" src="images/menu.png"></a>
+        <a href="#" class="icon"><img alt="cart" src="images/cart.png"></a>
     </header>
 
+    <!-- Checkbox voor dark mode -->
+    <label>
+        <input type="checkbox" id="light-mode" name="light-mode" value="light-mode">
+        <label for="light-mode">Dark mode</label>
+    </label>
+
     <main>
+        <!-- Section 1 -->
         <section>
-            <a href=""><img class="banner" alt="banner" src="images/banner.jpg"></a>
+            <a href="#">
+                <img src="images/banner.jpg" alt="Discover your ultimate glow">
+            </a>
             <h1>Discover <br> your ultimate glow</h1>
-            <button class="button">View products</button>
+            <button>View products</button>
         </section>
 
+        <!-- Section 2 -->
         <section>
-            <a href=""><img alt="hydra serum" src="images/hydra.jpg"></a>
-            <p class="picturetext">Simple pure</p>
-            <a href=""><img alt="hydra serum" src="images/hydra.jpg"></a>
-            <p class="picturetext">Enhance your beauty</p>
+            <a href="#"><img alt="hydra serum" src="images/hydra.jpg"></a>
+            <p>Simple pure</p>
+            <a href="#"><img alt="hydra serum" src="images/hydra.jpg"></a>
+            <p>Enhance your beauty</p>
         </section>
 
+        <!-- Section 3 -->
         <section>
-            <a href=""><img alt="values" src="images/bannertje.jpg"></a>
+            <a href="#"><img alt="values" src="images/bannertje.jpg"></a>
         </section>
 
+        <!-- Section 4 -->
         <section>
             <h2>
                 Meet our products
             </h2>
-            <button class="view">
+            <button>
                 View all
             </button>
             <div>
-                <a href="bestsellers.html"><img class="product" alt="Aloe Vera sunscreen" src="images/aloevera.jpg"></a>
-                <a href="bestsellers.html"><img class="product" alt="Aloe Vera sunscreen" src="images/aloevera.jpg"></a>
+                <a href="bestsellers.html"><img src="images/aloevera.jpg" alt="Aloe Vera sunscreen"></a>
+                <a href="bestsellers.html"><img src="images/aloevera.jpg" alt="Aloe Vera sunscreen"></a>
             </div>
 
             <div>
-                <p class="greytext">
+                <p>
                     COSRX
                 </p>
-                <p class="greytext">
+                <p>
                     COSRX
                 </p>
-                <p class="greytext">
+                <p>
                     <strong>
                         &#8364 14,95
                     </strong>
                 </p>
-                <p class="greytext">
+                <p>
                     <strong>
                         &#8364 14,95
                     </strong>
                 </p>
-                <p class="greytext">
+                <p>
                     Aloe Vera sunscreen
                 </p>
-                <p class="gap">
+                <p>
                     Aloe Vera sunscreen
                 </p>
             </div>
         </section>
 
+        <!-- Section 5 -->
         <section>
-            <a href=""><img class="imagespace" alt="Starter set" src="images/mask.jpg"></a>
-            <p class="picturetext">STARTER SET</p>
-            <button class="buttons">SHOP THIS</button>
-            <a href=""><img class="imagespace" alt="Treat yourself set" src="images/mask.jpg"></a>
-            <p class="picturetext">TREAT YOURSELF SET</p>
-            <button class="buttons">SHOP THIS</button>
+            <a href="#"><img src="images/mask.jpg" alt="Starter set"></a>
+            <p>STARTER SET</p>
+            <button>SHOP THIS</button>
+            <a href="#"><img src="images/mask.jpg" alt="Treat yourself set"></a>
+            <p>TREAT YOURSELF SET</p>
+            <button>SHOP THIS</button>
         </section>
 
+        <!-- Section 6 -->
         <section>
-            <h2>
-                Why Korean beauty products?
-            </h2>
-            <p>
-                Korean beauty products are buzzed about by experts in the beauty world for <b>innovation,
-                    high-efficacy</b> and the
-                <b>use of natural ingredients</b>. It is also known for its personalized and often extensive product
-                layering
-                regimes to deliver a multitude of benefits gently over time.
-            </p>
-        </section>
+            <!-- Font-size veranderen met behulp van https://www.youtube.com/watch?v=xOy0kVlbhlc -->
+            <div class="container">
+                <div class="buttons">
+                    <span class="btn active" onclick="document.getElementById('text').style.fontSize = '1em'">A</span>
+                    <span class="btn" onclick="document.getElementById('text').style.fontSize = '1.10em'">A</span>
+                    <span class="btn" onclick="document.getElementById('text').style.fontSize = '1.20em'">A</span>
+                </div>
 
-        <section>
-            <div class="test">
-                <a href=""><img class="product" alt="Vitamin C serum" src="images/vitac.jpg"></a>
-                <a href=""><img class="product" alt="Vitamin C serum" src="images/vitac.jpg"></a>
-                <a href=""><img class="product" alt="Vitamin C serum" src="images/vitac.jpg"></a>
-                <a href=""><img class="product" alt="Vitamin C serum" src="images/vitac.jpg"></a>
-                <a href=""><img class="product" alt="Vitamin C serum" src="images/vitac.jpg"></a>
-                <a href=""><img class="product" alt="Vitamin C serum" src="images/vitac.jpg"></a>
-                <p class="phototext">SERUMS</p>
-                <p class="phototext">SERUMS</p>
-                <p class="phototext">SERUMS</p>
-                <p class="phototext">SERUMS</p>
-                <p class="phototext">SERUMS</p>
-                <p class="phototext">SERUMS</p>
+                <div class="content" id="text">
+                    <h2>
+                        Why Korean beauty products?
+                    </h2>
+                    <p>
+                        Korean beauty products are buzzed about by experts in the beauty world for <b>innovation,
+                            high-efficacy</b> and the
+                        <b>use of natural ingredients</b>. It is also known for its personalized and often extensive
+                        product
+                        layering
+                        regimes to deliver a multitude of benefits gently over time.
+                    </p>
+                </div>
             </div>
+
         </section>
 
+        <!-- Section 7 -->
         <section>
-            <div>
-                <a href=""><img class="product" alt="Cosrx" src="images/brand.png"></a>
-                <a href=""><img class="product" alt="Cosrx" src="images/brand.png"></a>
-                <a href=""><img class="product" alt="Cosrx" src="images/brand.png"></a>
-                <a href=""><img class="product" alt="Cosrx" src="images/brand.png"></a>
-                <a href=""><img class="product" alt="Cosrx" src="images/brand.png"></a>
-                <a href=""><img class="product" alt="Cosrx" src="images/brand.png"></a>
-                <a href=""><img class="product" alt="Cosrx" src="images/brand.png"></a>
-                <a href=""><img class="product" alt="Cosrx" src="images/brand.png"></a>
-            </div>
+            <a href="#"><img src="images/vitac.jpg" alt="Vitamin C serum"></a>
+            <a href="#"><img src="images/vitac.jpg" alt="Vitamin C serum"></a>
+            <a href="#"><img src="images/vitac.jpg" alt="Vitamin C serum"></a>
+            <a href="#"><img src="images/vitac.jpg" alt="Vitamin C serum"></a>
+            <a href="#"><img src="images/vitac.jpg" alt="Vitamin C serum"></a>
+            <a href="#"><img src="images/vitac.jpg" alt="Vitamin C serum"></a>
+            <p>Cleanser</p>
+            <p>Exfoliate</p>
+            <p>Toner</p>
+            <p>Essence</p>
+            <p>Serum</p>
+            <p>Eye cream</p>
+        </section>
+
+        <!-- Section 8 -->
+        <section>
+            <h2>Receive 10% off your next purchase</h2>
+            <p>Sign up for the newsletter and stay informed</p>
+
+            <!-- Formulieren https://www.w3schools.com/html/html_forms.asp -->
+            <form>
+                <label for="e-mail">E-mail</label>
+                <input type="text" id="e-mail" name="e-mail">
+                <br>
+
+                <input type="checkbox" id="accept" name="accept" value="accept">
+                <label for="accept"> I accept all conditions</label>
+                <br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <!-- Section 9 -->
+        <section>
+            <a href="#"><img src="images/brand.png" alt="Cosrx"></a>
+            <a href="#"><img src="images/brand.png" alt="Cosrx"></a>
+            <a href="#"><img src="images/brand.png" alt="Cosrx"></a>
+            <a href="#"><img src="images/brand.png" alt="Cosrx"></a>
+            <a href="#"><img src="images/brand.png" alt="Cosrx"></a>
+            <a href="#"><img src="images/brand.png" alt="Cosrx"></a>
+            <a href="#"><img src="images/brand.png" alt="Cosrx"></a>
+            <a href="#"><img src="images/brand.png" alt="Cosrx"></a>
         </section>
 
         <footer>
+            <!-- Een horizontale lijn van https://www.w3schools.com/tags/tag_hr.asp -->
             <hr>
-            <p class="footertext">
+            <p>
                 OUR COMPANY
             </p>
 
@@ -181,16 +219,18 @@
 
             <hr>
 
-            <p class="footertext">
+            <p>
                 SIGN UP AND SAVE
             </p>
 
-            <p class="footertext">
+            <p>
                 © Rose Korean Beauty
             </p>
 
         </footer>
     </main>
+
+    <script src="./js/javascript.js"></script>
 
 </body>
 

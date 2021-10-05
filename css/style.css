@@ -1,7 +1,32 @@
+/* // Met hulp van de oefening States oefening 2 208c van  Sanne, https://codepen.io/shooft/pen/rNworwK */
+:root {
+    background-color: black;
+    color: white;
+}
+
+@media (prefers-color-scheme:dark) {
+    :root:not(.light-mode) {
+        background-color: white;
+        color: black;
+    }
+}
+
+/* Met behulp van de website https: //css-tricks.com/sticky-smooth-active-nav/ */
+@media (min-height: 300px) {
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+}
+
+/* Om witte randen weg te halen in de body */
 body {
     margin: 0;
 }
 
+/* De achergrondkleur aanpassen naar roze, de tekst eerst naast elkaar 
+en vervolgens onder elkaar te zetten en de witte rand weghalen. */
 .announce {
     background-color: #f4c2c2;
     display: flex;
@@ -9,7 +34,9 @@ body {
     margin: 0;
 }
 
-.shipping {
+/* De tekst te veranderen kwa grootte, hoofdletters ervan maken, 
+het centreren in het midden, ruimte tussen de letters en ruimte tussen de twee regels. */
+.announce p:first-of-type {
     font-size: 8px;
     text-transform: uppercase;
     text-align: center;
@@ -17,94 +44,61 @@ body {
     margin-top: 1.5em;
 }
 
-.euro {
+/* De tekst te veranderen kwa grootte, hoofdletters ervan maken, 
+het centreren in het midden, ruimte tussen de letters, ruimte tussen de twee regels
+en onder de laatste regel. */
+.announce p:nth-of-type(2) {
     font-size: 8px;
     text-align: center;
     letter-spacing: .15em;
-    margin-top: -.5em;
-    margin-bottom: 1.2em;
+    margin: -.5em 0 1.2em 0;
 }
 
-p {
-    font-family: 'Poppins', sans-serif;
-}
-
+/* Om de afbeeldingen naast elkaar te plaatsen en ruimte erboven te creëren. */
 header {
     display: flex;
     padding-top: 1em;
+    background-color: white;
+    width: 100%;
 }
 
-.icon {
-    padding-top: .75em;
-    padding-right: 1em;
-}
-
-.icon img {
-    max-width: 1.75em;
-}
-
-.navlink {
-    padding: 20px;
-    font-family: 'Poppins',
-        sans-serif;
-    letter-spacing: .2em;
-    margin-top: .75em;
-}
-
-@media only screen and (max-width: 400px) {
-    .navlink {
-        display: none;
-    }
-}
-
-.brand-icon {
+/* Om de link/afbeelding links te plaatsen en een beetje ruimte links*/
+header a:first-of-type {
     margin-right: auto;
-    max-width: 4em;
     padding-left: 10px;
 }
 
-.banner {
-    max-width: 100%;
-    margin-top: 1.2em;
-    margin-bottom: 2em;
-}
-
-img {
-    max-width: 100%;
-}
-
-.imagespace {
-    margin-top: -2em;
-}
-
+/* Om het logo een bepaalde breedte te geven en ruimte aan de onderkant */
 .logo {
-    max-width: 110px;
-    margin-top: 0;
+    width: 5em;
+    margin-bottom: 1em;
 }
 
-.picturetext {
-    text-transform: uppercase;
-    letter-spacing: .2em;
-    font-size: .75em;
-    text-align: center;
-    position: relative;
-    top: -17em;
-    color: white;
+/* Om de iconen ruimte te geven aan de boven- en rechterkant en een bepaalde breedte */
+.icon {
+    padding-top: .2em;
+    padding-right: 1em;
+    width: 1.75em;
 }
 
-.product {
-    width: 10em;
+/* Om de tekst van de label een lettertype te geven en ruimte links */
+label {
+    font-family: 'Poppins',
+        sans-serif;
+    margin-left: 1em;
 }
 
+/* Om de h1 een kleur te geven, de positie te meegeven, de grootte van de tekst en allemaal kapitalen */
 h1 {
     color: white;
     position: absolute;
-    top: 5em;
+    top: 5.5em;
     left: 1em;
     font-size: 2em;
     text-transform: uppercase;
 }
 
+/* Om de h2 te centreren, kapitalen te maken, de grootte en vetgedrukter */
 h2 {
     text-align: center;
     text-transform: uppercase;
@@ -112,14 +106,24 @@ h2 {
     font-weight: 550;
 }
 
+/* Om het lettertype te veranderen, de positie, vetgedrukter, grootte en regelhoogte */
 p {
+    font-family: 'Poppins',
+        sans-serif;
     margin-left: 1em;
     font-weight: 100;
     font-size: .9em;
     line-height: 2.2em;
 }
 
-.button {
+/* Ruimte boven en onder de banner */
+section:first-of-type {
+    margin-top: 1.2em;
+    margin-bottom: 2em;
+}
+
+/* De button stijlen */
+section:first-of-type button {
     position: relative;
     background-color: black;
     text-transform: uppercase;
@@ -129,11 +133,96 @@ p {
         sans-serif;
     font-weight: bold;
     letter-spacing: .2em;
-    top: -7em;
+    top: -4.5em;
     left: 2.5em;
 }
 
-.buttons {
+section:first-of-type button:hover {
+    color: black;
+    background-color: white;
+}
+
+section:first-of-type button:active {
+    color: black;
+    background-color: #f4c2c2;
+}
+
+section:first-of-type button:focus {
+    color: black;
+    background-color: #f4c2c2;
+}
+
+/* Ruimte boven van de afbeelding verminderen */
+section:nth-of-type(2) img {
+    margin-top: -2em;
+}
+
+/* Stijlen van de p in section 2 */
+section:nth-of-type(2) p {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: .75em;
+    text-align: center;
+    position: relative;
+    top: -17em;
+    color: white;
+}
+
+/* De afbeelding de breedte geven van het hele scherm. */
+img {
+    width: 100%;
+}
+
+/* Om 2 kolommen te maken, de items te centreren en wat ruimte aan de zijkanten */
+section:nth-of-type(4) div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 0 1em;
+}
+
+/* Stijlen van de button in section 4 */
+section:nth-of-type(4) button {
+    text-transform: uppercase;
+    background-color: white;
+    padding: .5em 1em;
+    font-family: 'Poppins',
+        sans-serif;
+    letter-spacing: .2em;
+    font-size: .75em;
+    display: flex;
+    margin: 1em auto 2em auto;
+    border: .1px solid rgb(219, 219, 219);
+}
+
+section:nth-of-type(4) button:hover {
+    color: white;
+    background-color: black;
+}
+
+section:nth-of-type(4) button:active {
+    color: black;
+    background-color: #f4c2c2;
+}
+
+section:nth-of-type(4) button:focus {
+    color: black;
+    background-color: #f4c2c2;
+}
+
+/* Stijlen van de p in section 4 */
+section:nth-of-type(4) p {
+    margin: .25em 2em;
+    font-size: .75em;
+}
+
+section:nth-of-type(4) div p:last-of-type {
+    margin: .25em 2em 8em 2em;
+    font-size: .75em;
+}
+
+/* Stijlen van de button in section 5 */
+section:nth-of-type(5) button {
     position: relative;
     background-color: black;
     text-transform: uppercase;
@@ -147,44 +236,89 @@ p {
     left: 10em;
 }
 
-
-.view {
-    text-transform: uppercase;
+section:nth-of-type(5) button:hover {
+    color: black;
     background-color: white;
-    padding: .5em 1em;
-    font-family: 'Poppins',
-        sans-serif;
-    letter-spacing: .2em;
-    font-size: .75em;
-    display: flex;
-    margin: 1em auto 2em auto;
-    border: .1px solid rgb(219, 219, 219);
 }
 
-div {
+section:nth-of-type(5) button:active {
+    color: black;
+    background-color: #f4c2c2;
+}
+
+section:nth-of-type(5) button:focus {
+    color: black;
+    background-color: #f4c2c2;
+}
+
+/* Stijlen van de p in section 5 */
+section:nth-of-type(5) p {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: .75em;
+    text-align: center;
+    position: relative;
+    top: -17em;
+    color: black;
+    background-color: white;
+    width: 50%;
+    margin: auto;
+}
+
+/* Ruimte boven de afbeelding verminderen */
+section:nth-of-type(5) img {
+    margin-top: -2em;
+}
+
+/* Om ruimte te geven aan alle kanten */
+.container {
+    margin: 20px;
+}
+
+/* Om de buttons aan de rechterkant te plaatsen,
+ vervolgens om die aan de onderkant te linen en ruimte boven verkleinen*/
+.container .buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: -3em;
+}
+
+/* Ruimte in het blokje, een kleurtje geven en ruimte tussen elkaar */
+.container .buttons .btn {
+    padding: 0 13px;
+    background-color: #ddd;
+    color: #fff;
+    margin-left: 10px;
+}
+
+/* Grootte van de tekst in de buttons */
+.container .buttons .btn:nth-child(2) {
+    font-size: 1.5em;
+}
+
+.container .buttons .btn:nth-child(3) {
+    font-size: 2em;
+}
+
+/* Lettertype van de tekst in de blokjes */
+span {
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+/* De hoogte van de section, hiervan een grid te maken die 
+2 kolommen heeft met ruimte ertussen en ruimte aan de zijkanten*/
+section:nth-of-type(7) {
+    height: 550px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-items: center;
+    gap: 1em;
     margin: 0 1em;
 }
 
-.page {
-    gap: 1em;
-}
-
-.greytext {
-    margin: .25em 2em;
-    color: grey;
-    font-size: .75em;
-}
-
-.gap {
-    margin: .25em 2em 8em 2em;
-    color: grey;
-    font-size: .75em;
-}
-
-.phototext {
+/* Stijlen van de p in section 7 */
+section:nth-of-type(7) p {
     text-transform: uppercase;
     letter-spacing: .2em;
     font-size: .75em;
@@ -195,11 +329,123 @@ div {
     margin-bottom: 10.5em;
 }
 
+/* Achtergrondkleur, hoogte van section 8 en ruimte aan de onderkant */
+section:nth-of-type(8) {
+    background-color: #f4c2c2;
+    height: 400px;
+    margin-bottom: 2em;
+}
+
+/* Stijlen van de h2 in section 8 */
+section:nth-of-type(8) h2 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 1.5em;
+}
+
+/* Stijlen van de p in section 8 */
+section:nth-of-type(8) p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    top: 2em;
+}
+
+/* Positie van het formulier */
+form {
+    position: relative;
+    top: 3em;
+}
+
+/* Ruimte links */
+form label:first-of-type {
+    margin-left: 2em;
+}
+
+/* Ruimte links */
+form label:nth-of-type(2) {
+    margin-left: 6em;
+}
+
+/* Stijlen van het tekstvlak */
+form input[type=text] {
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Positioneren van de checkbox */
+form input[type=checkbox] {
+    position: relative;
+    left: 5.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Stijlen van de button */
+form input[type=submit] {
+    background-color: black;
+    text-transform: uppercase;
+    padding: .5em 1em;
+    color: white;
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: bold;
+    letter-spacing: .2em;
+    display: flex;
+    margin: auto;
+    margin-top: 1em;
+}
+
+form input[type=submit]:hover {
+    color: black;
+    background-color: white;
+}
+
+form input[type=submit]:active {
+    color: black;
+    background-color: #f4c2c2;
+}
+
+form input[type=submit]:focus {
+    color: black;
+    background-color: #f4c2c2;
+}
+
+/* Om een grid van 2 kolommen te maken met 
+gecentreerde items en ruimte aan de zijkanten*/
+section:nth-of-type(9) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 0 1em;
+}
+
+/* Grootte van de afbeeldingen in section 9 */
+section:nth-of-type(9) img {
+    width: 10em;
+}
+
+/* P in de footer te stijlen */
+footer p {
+    font-size: .65em;
+    text-align: center;
+}
+
+/* Om de bolletjes en ruimte weg te halen */
 ul {
     list-style-type: none;
     padding: 0;
 }
 
+/* Stijlen van de li */
 ul li {
     font-family: 'Poppins',
         sans-serif;
@@ -208,19 +454,41 @@ ul li {
     padding: 1em;
 }
 
-.footertext {
-    font-size: .65em;
-    text-align: center;
-}
-
-.test {
-    height: 550px;
+/* Om de buttons naast elkaar te plaatsen */
+.filtersorteer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 1em;
+    margin: 0 1em;
 }
 
-.page2 {
+/* Om de buttons te stijlen */
+.filtersorteer button {
     background-color: white;
     border: .1px solid rgb(219, 219, 219);
     padding: 1em;
     width: 100%;
+}
+
+/* De tekst in het midden te plaatsen */
+.center {
+    text-align: center;
+}
+
+/* Om de afbeeldingen en tekst naast elkaar te plaatsen */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 1em;
+}
+
+/* Ruimte tussen de teksten verminderen en de tekst in het midden te plaatsen*/
+.grid p {
+    text-align: center;
+    margin: 0;
+}
+
+/* Ruimte onder de tekst vergroten */
+.grid .gap {
+    margin-bottom: 3em;
 }
