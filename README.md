@@ -62,13 +62,8 @@ Bestsellers
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/" width="375px" alt="breakdown van de hele pagina">
+![Breakdownschets](https://user-images.githubusercontent.com/40611000/136070950-eab90b3b-ad45-4e2f-8a2c-987ed155898d.PNG)
 
-### dynamisch deel (bijv menu): 
-<img src="images/" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
