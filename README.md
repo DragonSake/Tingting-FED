@@ -41,12 +41,14 @@ https://www.rosekoreanbeauty.com/
 #### Screenshot(s) van de eerste pagina (small screen): 
 Homepage
 
-<img src="./screenshots/Home.png" width="375px" alt="Screenshot homepage">
+![Home](https://user-images.githubusercontent.com/40611000/136080295-081e9d25-8fc9-4ffc-81c4-b799cf0c1a01.png)
+
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Bestsellers
 
-<img src="./screenshots/Bestsellers.png" width="375px" alt="Screenshot pagetwo">
+![Bestsellers](https://user-images.githubusercontent.com/40611000/136080306-add2c918-ceb3-46e5-8b21-644d4ed1b542.png)
+
  
 </details>
 
@@ -61,7 +63,8 @@ Bestsellers
 
 ### de hele pagina: 
 
-<img src="./screenshots/Breakdownschets.png" width="375px" alt="Breakdownschets">
+![Breakdownschets](https://user-images.githubusercontent.com/40611000/136080315-850c97ca-8320-4f97-a02a-9a8e2040909f.PNG)
+
 
 </details>
 
@@ -223,11 +226,12 @@ Ik heb zelf ook een beetje zitten rondneuzen hoe alles werkt.
 
 ### Screenshot(s)
 
-<img src="./screenshots/Bestsellerspage.png" width="375px" alt="Bestsellerspage">
-<img src="./screenshots/Homepage.png" width="375px" alt="Homepage">
+![Homepage](https://user-images.githubusercontent.com/40611000/136080343-1dd9be6e-d076-4579-81c4-c29a3c721e25.png)
+![Bestsellerspage](https://user-images.githubusercontent.com/40611000/136080353-6508c51f-a045-42ac-9b5b-77d273075c8a.png)
 
-<img src="./screenshots/Code1.png" width="375px" alt="HTML">
-<img src="./screenshots/Code2.png" width="375px" alt="Javascript">
+![Code1](https://user-images.githubusercontent.com/40611000/136080362-e42bf8d5-68f7-4ece-9b48-9d1fc129483b.PNG)
+![Code2](https://user-images.githubusercontent.com/40611000/136080373-e6817798-a8c8-454b-a58f-9ca57c9e2003.PNG)
+
 
 </details>
 
