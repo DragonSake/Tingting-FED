@@ -19,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 Tingting Li
 
 #### Je startniveau:
-Rood
+Rode piste
 
 #### Je focus:
 Surface plane
@@ -39,11 +39,15 @@ Surface plane
 https://www.rosekoreanbeauty.com/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
+Homepage
+ ![screencapture-rosekoreanbeauty-2021-10-05-19_03_44](https://user-images.githubusercontent.com/40611000/136069615-68a5283a-4a58-494d-9597-ce84600370e5.png)
+
 <img src="" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
+Bestsellers
+ ![screencapture-rosekoreanbeauty-collections-bestsellers-2021-10-05-19_04_13](https://user-images.githubusercontent.com/40611000/136069635-4f11e5e1-9461-4f22-82ff-54471d4d7593.png)
+ 
 <img src="" width="375px" alt="omschrijving van de pagina">
  
 </details>
