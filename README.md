@@ -254,6 +254,7 @@ Feedback aantekeningen:
 
 
 Dit ging goed
+ 
 Ik heb de website verbeterd. Ik heb meer foto's toegevoegd zodat je nu een beter beeld krijgt hoe het eruit zou zien.
 Verder heeft de website een werkende side navigatie met een animatie. Via de side navigatie kun je de volgende pagina bereiken: bestsellers.
 Op de pagina bestsellers kun je op een product klikken en dan zie je dat die in je winkelmandje zit, er verschijnt namelijk een rode stip zoals op de orginele website.
