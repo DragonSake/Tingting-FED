@@ -244,6 +244,15 @@ Ik heb zelf ook een beetje zitten rondneuzen hoe alles werkt.
 <summary>Herkansing</summary>
 
 ### Stand van zaken
+Feedback aantekeningen:
+- Voeg animaties toe
+- Laat menu, zoek of filter werken
+- Gebruik verschillende afbeeldingen
+- Huisstijl door middel van var(--color)
+- Verslag bijwerken
+- En eventueel responsive
+
+
 Dit ging goed
 Ik heb de website verbeterd. Ik heb meer foto's toegevoegd zodat je nu een beter beeld krijgt hoe het eruit zou zien.
 Verder heeft de website een werkende side navigatie met een animatie. Via de side navigatie kun je de volgende pagina bereiken: bestsellers.
