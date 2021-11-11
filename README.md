@@ -254,8 +254,8 @@ Dit ging minder goed
 Ik zat heel lang vast op hoe ik de animatie kan maken voor het winkelmandje. Ik heb veel op internet gezocht en uitgeprobeerd. Ik kon dit beter doen door hulp te vragen.
 
 ### Screenshot(s)
-
-
+https://github.com/DragonSake/Tingting-FED/blob/31f4313641ab3ca40e963807c0f1e22d1f65d8ac/screenshots/HomeNew.png
+https://github.com/DragonSake/Tingting-FED/blob/31f4313641ab3ca40e963807c0f1e22d1f65d8ac/screenshots/BestsellerNew.png
 
 ## Bronnenlijst
 
