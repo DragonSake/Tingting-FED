@@ -2,16 +2,23 @@
 :root {
     background-color: black;
     color: white;
+
+    --blackcolor: black;
+    --whitecolor: white;
+    --pinkcolor: #f4c2c2;
+    --greycolor: #ddd;
+
+    --text: 'Poppins', sans-serif;
 }
 
 @media (prefers-color-scheme:dark) {
     :root:not(.light-mode) {
-        background-color: white;
-        color: black;
+        background-color: var(--whitecolor);
+        color: var(--blackcolor);
     }
 }
 
-/* Met behulp van de website https: //css-tricks.com/sticky-smooth-active-nav/ */
+/* Met behulp van de website https://css-tricks.com/sticky-smooth-active-nav/ */
 @media (min-height: 300px) {
     header {
         position: sticky;
@@ -28,7 +35,7 @@ body {
 /* De achergrondkleur aanpassen naar roze, de tekst eerst naast elkaar 
 en vervolgens onder elkaar te zetten en de witte rand weghalen. */
 .announce {
-    background-color: #f4c2c2;
+    background-color: var(--pinkcolor);
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -58,7 +65,7 @@ en onder de laatste regel. */
 header {
     display: flex;
     padding-top: 1em;
-    background-color: white;
+    background-color: var(--whitecolor);
     width: 100%;
 }
 
@@ -94,7 +101,7 @@ label {
 
 /* Om de h1 een kleur te geven, de positie te meegeven, de grootte van de tekst en allemaal kapitalen */
 h1 {
-    color: white;
+    color: var(--whitecolor);
     position: absolute;
     top: 5.5em;
     left: 1em;
@@ -112,8 +119,7 @@ h2 {
 
 /* Om het lettertype te veranderen, de positie, vetgedrukter, grootte en regelhoogte */
 p {
-    font-family: 'Poppins',
-        sans-serif;
+    font-family: var(--text);
     margin-left: 1em;
     font-weight: 100;
     font-size: .9em;
@@ -129,12 +135,11 @@ section:first-of-type {
 /* De button stijlen */
 section:first-of-type button {
     position: relative;
-    background-color: black;
+    background-color: var(--blackcolor);
     text-transform: uppercase;
     padding: .5em 1em;
     color: white;
-    font-family: 'Poppins',
-        sans-serif;
+    font-family: var(--text);
     font-weight: bold;
     letter-spacing: .2em;
     top: -4.5em;
@@ -142,18 +147,18 @@ section:first-of-type button {
 }
 
 section:first-of-type button:hover {
-    color: black;
-    background-color: white;
+    color: var(--blackcolor);
+    background-color: var(--whitecolor);
 }
 
 section:first-of-type button:active {
-    color: black;
-    background-color: #f4c2c2;
+    color: var(--blackcolor);
+    background-color: var(--pinkcolor);
 }
 
 section:first-of-type button:focus {
-    color: black;
-    background-color: #f4c2c2;
+    color: var(--whiteblack);
+    background-color: var(--pinkcolor);
 }
 
 /* Ruimte boven van de afbeelding verminderen */
@@ -169,7 +174,7 @@ section:nth-of-type(2) p {
     text-align: center;
     position: relative;
     top: -17em;
-    color: white;
+    color: var(--whitecolor);
 }
 
 /* De afbeelding de breedte geven van het hele scherm. */
@@ -188,10 +193,9 @@ section:nth-of-type(4) div {
 /* Stijlen van de button in section 4 */
 section:nth-of-type(4) button {
     text-transform: uppercase;
-    background-color: white;
+    background-color: var(--whitecolor);
     padding: .5em 1em;
-    font-family: 'Poppins',
-        sans-serif;
+    font-family: var(--text);
     letter-spacing: .2em;
     font-size: .75em;
     display: flex;
@@ -200,18 +204,18 @@ section:nth-of-type(4) button {
 }
 
 section:nth-of-type(4) button:hover {
-    color: white;
-    background-color: black;
+    color: var(--whitecolor);
+    background-color: var(--blackcolor);
 }
 
 section:nth-of-type(4) button:active {
     color: black;
-    background-color: #f4c2c2;
+    background-color: var(--pinkcolor);
 }
 
 section:nth-of-type(4) button:focus {
-    color: black;
-    background-color: #f4c2c2;
+    color: var(--blackcolor);
+    background-color: var(--pinkcolor);
 }
 
 /* Stijlen van de p in section 4 */
@@ -228,12 +232,11 @@ section:nth-of-type(4) div p:last-of-type {
 /* Stijlen van de button in section 5 */
 section:nth-of-type(5) button {
     position: relative;
-    background-color: black;
+    background-color: var(--blackcolor);
     text-transform: uppercase;
     padding: .5em 1em;
-    color: white;
-    font-family: 'Poppins',
-        sans-serif;
+    color: var(--whitecolor);
+    font-family: var(--text);
     font-weight: bold;
     letter-spacing: .2em;
     top: -10em;
@@ -241,18 +244,18 @@ section:nth-of-type(5) button {
 }
 
 section:nth-of-type(5) button:hover {
-    color: black;
-    background-color: white;
+    color: var(--blackcolor);
+    background-color: var(--whitecolor);
 }
 
 section:nth-of-type(5) button:active {
-    color: black;
-    background-color: #f4c2c2;
+    color: var(--blackcolor);
+    background-color: var(--pinkcolor);
 }
 
 section:nth-of-type(5) button:focus {
-    color: black;
-    background-color: #f4c2c2;
+    color: var(--blackcolor);
+    background-color: var(--pinkcolor);
 }
 
 /* Stijlen van de p in section 5 */
@@ -263,8 +266,8 @@ section:nth-of-type(5) p {
     text-align: center;
     position: relative;
     top: -17em;
-    color: black;
-    background-color: white;
+    color: var(--blackcolor);
+    background-color: var(--whitecolor);
     width: 50%;
     margin: auto;
 }
@@ -291,8 +294,8 @@ section:nth-of-type(5) img {
 /* Ruimte in het blokje, een kleurtje geven en ruimte tussen elkaar */
 .container .buttons .btn {
     padding: 0 13px;
-    background-color: #ddd;
-    color: #fff;
+    background-color: var(--greycolor);
+    color: var(--whitecolor);
     margin-left: 10px;
 }
 
@@ -307,8 +310,7 @@ section:nth-of-type(5) img {
 
 /* Lettertype van de tekst in de blokjes */
 span {
-    font-family: 'Poppins',
-        sans-serif;
+    font-family: var(--text);
 }
 
 /* De hoogte van de section, hiervan een grid te maken die 
@@ -329,13 +331,13 @@ section:nth-of-type(7) p {
     text-align: center;
     position: relative;
     top: -40em;
-    color: white;
+    color: var(--whitecolor);
     margin-bottom: 10.5em;
 }
 
 /* Achtergrondkleur, hoogte van section 8 en ruimte aan de onderkant */
 section:nth-of-type(8) {
-    background-color: #f4c2c2;
+    background-color: var(--pinkcolor);
     height: 400px;
     margin-bottom: 2em;
 }
@@ -395,12 +397,11 @@ section:nth-of-type(8) form input[type=checkbox] {
 
 /* Stijlen van de button */
 section:nth-of-type(8) form input[type=submit] {
-    background-color: black;
+    background-color: var(--blackcolor);
     text-transform: uppercase;
     padding: .5em 1em;
-    color: white;
-    font-family: 'Poppins',
-        sans-serif;
+    color: var(--whitecolor);
+    font-family: var(--text);
     font-weight: bold;
     letter-spacing: .2em;
     display: flex;
@@ -409,18 +410,18 @@ section:nth-of-type(8) form input[type=submit] {
 }
 
 section:nth-of-type(8) form input[type=submit]:hover {
-    color: black;
-    background-color: white;
+    color: var(--blackcolor);
+    background-color: var(--whitecolor);
 }
 
 section:nth-of-type(8) form input[type=submit]:active {
-    color: black;
-    background-color: #f4c2c2;
+    color: var(--blackcolor);
+    background-color: var(--pinkcolor);
 }
 
 section:nth-of-type(8) form input[type=submit]:focus {
-    color: black;
-    background-color: #f4c2c2;
+    color: var(--blackcolor);
+    background-color: var(--pinkcolor);
 }
 
 /* Om een grid van 2 kolommen te maken met 
@@ -451,8 +452,7 @@ ul {
 
 /* Stijlen van de li */
 ul li {
-    font-family: 'Poppins',
-        sans-serif;
+    font-family: var(--text);
     font-size: .75em;
     text-align: center;
     padding: 1em;
@@ -468,7 +468,7 @@ ul li {
 
 /* Om de buttons te stijlen */
 .filtersorteer button {
-    background-color: white;
+    background-color: var(--whitecolor);
     border: .1px solid rgb(219, 219, 219);
     padding: 1em;
     width: 100%;
@@ -495,4 +495,36 @@ ul li {
 /* Ruimte onder de tekst vergroten */
 .grid .gap {
     margin-bottom: 3em;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: var(--whitecolor);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 30px 32px;
+    text-decoration: none;
+    font-size: 0.9em;
+    color: var(--blackcolor);
+    display: block;
+    transition: 0.3s;
+    font-family: var(--text);
+    font-weight: 100;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
