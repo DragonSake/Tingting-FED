@@ -255,6 +255,7 @@ Ik zat heel lang vast op hoe ik de animatie kan maken voor het winkelmandje. Ik 
 
 ### Screenshot(s)
 ![image](https://user-images.githubusercontent.com/40611000/141337523-6fda7307-0339-4992-8388-896cac9c3d38.png)
+ 
 ![image](https://user-images.githubusercontent.com/40611000/141337610-5683ce60-b538-4bf7-a9cb-c9611510b30f.png)
 
 ## Bronnenlijst
