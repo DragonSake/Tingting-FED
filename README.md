@@ -253,5 +253,8 @@ Ik heb zelf ook een beetje zitten rondneuzen hoe alles werkt.
 4. Euro sign - Euro sign https://www.w3schools.com/charsets/ref_utf_currency.asp
 5. States oefening 2 208c van  Sanne - https://codepen.io/shooft/pen/rNworwK
 6. Sound - https://www.w3schools.com/jsref/met_win_settimeout.asp
+7. Sticky nav - https://css-tricks.com/sticky-smooth-active-na
+8. Side nav - www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav
+9. Verander het plaatje na een klik - https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_lightbulb
 
 </details>
