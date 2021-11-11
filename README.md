@@ -253,6 +253,7 @@ Feedback aantekeningen:
 - En eventueel responsive
 
 
+ 
 Dit ging goed
  
 Ik heb de website verbeterd. Ik heb meer foto's toegevoegd zodat je nu een beter beeld krijgt hoe het eruit zou zien.
@@ -261,6 +262,7 @@ Op de pagina bestsellers kun je op een product klikken en dan zie je dat die in 
 De variabelen voor de huisstijl in CSS heb ik met succes kunnen aanpassen, dat was niet zo moeilijk.
 
 Dit ging minder goed
+ 
 Ik zat heel lang vast op hoe ik de animatie kan maken voor het winkelmandje. Ik heb veel op internet gezocht en uitgeprobeerd. Ik kon dit beter doen door hulp te vragen.
 
 ### Screenshot(s)
