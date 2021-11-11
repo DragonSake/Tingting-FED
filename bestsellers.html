@@ -22,9 +22,20 @@
     <header>
         <a href="index.html"><img class="logo" alt="logo" src="images/logo.png"></a>
         <a href="#" class="icon"><img src="images/search.png" alt="search"></a>
-        <a href="#" class="icon"><img src="images/menu.png" alt="menu"></a>
-        <a href="#" class="icon"><img src="images/cart.png" alt="cart"></a>
+        <a href="#" class="icon"><img src="images/menu.png" class="hamburgermenu" alt="menu"></a>
+        <a href="#" class="icon"><img src="images/cart.png" id="cart" alt="cart"></a>
     </header>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn">&times;</a>
+        <a href="bestsellers.html">Bestsellers</a>
+        <a href="#">New</a>
+        <a href="#">Shop By Products</a>
+        <a href="#">Shop By Concern</a>
+        <a href="#">Make-Up</a>
+        <a href="#">Brands</a>
+        <a href="#">Sale</a>
+    </div>
 
     <!-- Checkbox voor dark mode -->
     <form>
@@ -48,10 +59,13 @@
         24 products
     </p>
 
+    <!-- Met behulp van https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_lightbulb -->
     <section>
         <div class="grid">
-            <a href="bestsellers.html"><img class="product" alt="Aloe Vera sunscreen" src="images/aloevera.jpg"></a>
-            <a href="bestsellers.html"><img class="product" alt="Aloe Vera sunscreen" src="images/aloevera.jpg"></a>
+            <a href="#"><img class="product" alt="Aloe Vera sunscreen" src="images/aloevera.jpg"
+                    onclick="document.getElementById('cart').src='images/itemincart.png'"></a>
+            <a href="#"><img class="product" alt="Acne Pimple mask" src="images/pimplemask.jpg"
+                    onclick="document.getElementById('cart').src='images/itemincart.png'"></a>
         </div>
 
         <div class="grid">
@@ -68,32 +82,34 @@
             </p>
             <p>
                 <strong>
-                    &euro; 14,95
+                    &euro; 4,95
                 </strong>
             </p>
             <p>
                 Aloe Vera sunscreen
             </p>
             <p class="gap">
-                Aloe Vera sunscreen
+                Acne Pimple mask
             </p>
         </div>
 
         <div class="grid">
-            <a href="bestsellers.html"><img class="product" alt="Aloe Vera sunscreen" src="images/aloevera.jpg"></a>
-            <a href="bestsellers.html"><img class="product" alt="Aloe Vera sunscreen" src="images/aloevera.jpg"></a>
+            <a href="#"><img class="product" alt="Liptint" src="images/liptint.jpg"
+                    onclick="document.getElementById('cart').src='images/itemincart.png'"></a>
+            <a href="#"><img class="product" alt="Low Ph Cleanser Gel" src="images/cleanser.jpg"
+                    onclick="document.getElementById('cart').src='images/itemincart.png'"></a>
         </div>
 
         <div class="grid">
             <p>
-                COSRX
+                ROM&ND
             </p>
             <p>
                 COSRX
             </p>
             <p>
                 <strong>
-                    &euro; 14,95
+                    &euro; 12,95
                 </strong>
             </p>
             <p>
@@ -102,40 +118,42 @@
                 </strong>
             </p>
             <p>
-                Aloe Vera sunscreen
+                Liptint
             </p>
             <p class="gap">
-                Aloe Vera sunscreen
+                Low PH Cleanser Gel
             </p>
         </div>
 
         <div class="grid">
-            <a href="bestsellers.html"><img class="product" alt="Aloe Vera sunscreen" src="images/aloevera.jpg"></a>
-            <a href="bestsellers.html"><img class="product" alt="Aloe Vera sunscreen" src="images/aloevera.jpg"></a>
+            <a href="#"><img class="product" alt="Lip sleeping mask" src="images/sleepingmask.jpg"
+                    onclick="document.getElementById('cart').src='images/itemincart.png'"></a>
+            <a href="#"><img class="product" alt="Hydra skin serum" src="images/hydraserum.jpg"
+                    onclick="document.getElementById('cart').src='images/itemincart.png'"></a>
         </div>
 
         <div class="grid">
             <p>
-                COSRX
+                Laneige
             </p>
             <p>
-                COSRX
+                9wishes
             </p>
             <p>
                 <strong>
-                    &euro; 14,95
+                    &euro; 5,95
                 </strong>
             </p>
             <p>
                 <strong>
-                    &euro; 14,95
+                    &euro; 17,95
                 </strong>
             </p>
             <p>
-                Aloe Vera sunscreen
+                Lip sleeping mask
             </p>
             <p class="gap">
-                Aloe Vera sunscreen
+                Hydra skin serum
             </p>
         </div>
 
